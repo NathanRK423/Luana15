@@ -2,52 +2,59 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Convite Luana 15 Anos</title>
+  <title>Luana 15 Anos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
       margin: 0;
       padding: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to bottom, #8b0000, #ff9999);
+      color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
+      min-height: 100vh;
     }
     header {
-      background-color: #db6ca1;
-      color: white;
-      width: 100%;
-      text-align: center;
-      padding: 1rem;
-      font-size: 1.5rem;
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5rem;
+      color: #ffd700;
+      margin-top: 2rem;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
     }
-    .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      max-width: 1080px;
-      margin: 2rem;
-      gap: 2rem;
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid #ffd700;
+      border-radius: 25px;
+      padding: 2rem;
+      max-width: 900px;
+      width: 90%;
+      margin: 2rem auto;
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
     }
-    video, iframe {
+    video {
       width: 100%;
-      max-width: 1080px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+    }
+    footer {
+      color: #ffd700;
+      margin-bottom: 2rem;
+      font-size: 1rem;
     }
   </style>
 </head>
 <body>
-  <header>Convite - Luana 15 Anos</header>
-  <div class="content">
+  <header>👑 Princesa Luana - 15 Anos 👑</header>
+  <div class="card">
     <video controls>
       <source src="video_com_audio.mp4" type="video/mp4">
-      Seu navegador não suporta vídeo HTML5.
+      Seu navegador não suporta a reprodução de vídeos.
     </video>
-
-    <iframe src="Convite Luana 15 anos.pdf" width="100%" height="600px">
-      Seu navegador não suporta visualização de PDF. <a href="Convite Luana 15 anos.pdf">Baixe o PDF aqui.</a>
-    </iframe>
   </div>
+  <footer>
+    © 2025 - Luana | Uma noite digna da realeza 💖
+  </footer>
 </body>
 </html>
